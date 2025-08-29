@@ -1,28 +1,21 @@
 import customtkinter as ctk
-from ui.main_window import MainPOS
-from ui.ventana_login import mostrar_login
-from ui.auth import Autenticacion
-from assets.styles import *
+from ui.ventana_principal import mostrar_login
+from ui.ventana_principal import mostrar_ventana_principal
 
-def iniciar_aplicacion(usuario_autenticado, usuario):
-    if usuario_autenticado:
-        # Configurar apariencia
-        ctk.set_appearance_mode("light")
-        ctk.set_default_color_theme("blue")
-        
-        # Crear y ejecutar aplicación
-        app = MainPOS()
-        app.mainloop()
+def iniciar_aplicacion(autenticado, usuario_actual):
+    if autenticado:
+        root.withdraw()
+        mostrar_ventana_principal(root, usuario_actual)
     else:
-        print("Autenticación fallida")
+        root.quit()
 
 if __name__ == "__main__":
-    # Mostrar ventana de login
-    auth = Autenticacion()
+    ctk.set_appearance_mode("Dark")
+    ctk.set_default_color_theme("blue")
     
-    # Para desarrollo, puedes comentar la siguiente línea y descomentar la que sigue
-    # si quieres saltar el login durante el desarrollo
-    mostrar_login(None, iniciar_aplicacion)
+    root = ctk.CTk()
+    root.withdraw()
     
-    # Para desarrollo: iniciar directamente sin login
-    # iniciar_aplicacion(True, {"username": "admin", "rol": "administrador"})
+    mostrar_login(root, iniciar_aplicacion)
+    
+    root.mainloop()

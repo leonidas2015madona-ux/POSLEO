@@ -4,19 +4,35 @@
             "username": "admin",
             "password": "admin123",
             "rol": "administrador",
-            "nombre": "Administrador Principal"
+            "nombre": "Administrador Principal",
+            "permisos": [
+                "gestion_usuarios",
+                "gestion_productos",
+                "ver_reportes",
+                "realizar_ventas",
+                "cerrar_turnos"
+            ]
         },
         {
             "username": "empleado",
             "password": "empleado123",
             "rol": "empleado",
-            "nombre": "Empleado General"
+            "nombre": "Empleado General",
+            "permisos": [
+                "realizar_ventas",
+                "ver_historial_ventas",
+                "cerrar_turnos"
+            ]
         },
         {
             "username": "caja",
             "password": "caja123",
             "rol": "cajero",
-            "nombre": "Cajero Principal"
+            "nombre": "Cajero Principal",
+            "permisos": [
+                "realizar_ventas",
+                "ver_historial_ventas"
+            ]
         }
     ]
 }

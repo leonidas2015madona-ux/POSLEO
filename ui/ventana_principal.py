@@ -2,6 +2,14 @@ import customtkinter as ctk
 from tkinter import messagebox
 from ui.auth import Autenticacion
 
+def centrar_ventana(win, ancho, alto):
+    win.update_idletasks()
+    pantalla_ancho = win.winfo_screenwidth()
+    pantalla_alto = win.winfo_screenheight()
+    x = (pantalla_ancho // 2) - (ancho // 2)
+    y = (pantalla_alto // 2) - (alto // 2)
+    win.geometry(f'{ancho}x{alto}+{x}+{y}')
+
 def mostrar_login(parent, callback):
     win = ctk.CTkToplevel(parent)
     win.title("🔐 Iniciar Sesión - Librería 24hs")
@@ -106,3 +114,5 @@ def mostrar_login(parent, callback):
 
     # Hacer que la ventana sea modal
     win.protocol("WM_DELETE_WINDOW", lambda: parent.quit())
+    
+    
