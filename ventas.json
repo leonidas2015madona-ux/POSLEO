@@ -1,0 +1,66 @@
+[
+  {
+    "fecha": "2025-08-27 22:22:22",
+    "productos": [
+      {
+        "nombre": "LAPIZ NEGRO",
+        "precio": 150.0,
+        "cantidad": 1
+      }
+    ],
+    "subtotal": 150.0,
+    "iva": 31.5,
+    "total": 181.5,
+    "metodo_pago": "Efectivo",
+    "efectivo": 500.0,
+    "vuelto": 318.5
+  },
+  {
+    "fecha": "2025-08-27 22:28:48",
+    "productos": [
+      {
+        "nombre": "LAPIZ NEGRO",
+        "precio": 150.0,
+        "cantidad": 3
+      }
+    ],
+    "subtotal": 450.0,
+    "iva": 94.5,
+    "total": 544.5,
+    "metodo_pago": "Efectivo",
+    "efectivo": 2000.0,
+    "vuelto": 1455.5
+  },
+  {
+    "fecha": "2025-08-27 22:30:53",
+    "productos": [
+      {
+        "nombre": "VIROME",
+        "precio": 390.0,
+        "cantidad": 2
+      }
+    ],
+    "subtotal": 780.0,
+    "iva": 163.79999999999998,
+    "total": 943.8,
+    "metodo_pago": "Efectivo",
+    "efectivo": 1000.0,
+    "vuelto": 56.200000000000045
+  },
+  {
+    "fecha": "2025-08-27 22:32:20",
+    "productos": [
+      {
+        "nombre": "VIROME",
+        "precio": 390.0,
+        "cantidad": 1
+      }
+    ],
+    "subtotal": 390.0,
+    "iva": 81.89999999999999,
+    "total": 471.9,
+    "metodo_pago": "Efectivo",
+    "efectivo": 500.0,
+    "vuelto": 28.100000000000023
+  }
+]

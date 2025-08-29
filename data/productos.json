@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "lapiz",
+    "precio": 50.0,
+    "stock": 0
+  },
+  {
+    "nombre": "virome",
+    "precio": 85.0,
+    "stock": 1
+  },
+  {
+    "nombre": "papel",
+    "precio": 66.0,
+    "stock": 7
+  }
+]

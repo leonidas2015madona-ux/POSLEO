@@ -1,0 +1,73 @@
+[
+  {
+    "fecha": "2025-07-28 13:11:50",
+    "productos": [
+      {
+        "nombre": "lapiz",
+        "precio": 50.0,
+        "cantidad": 1
+      }
+    ],
+    "total": 50.0
+  },
+  {
+    "fecha": "2025-07-29 20:10:25",
+    "productos": [
+      {
+        "nombre": "lapiz",
+        "precio": 50.0,
+        "cantidad": 1
+      }
+    ],
+    "total": 50.0
+  },
+  {
+    "fecha": "2025-07-29 20:16:46",
+    "productos": [
+      {
+        "nombre": "lapiz",
+        "precio": 50.0,
+        "cantidad": 1
+      }
+    ],
+    "total": 50.0
+  },
+  {
+    "fecha": "2025-08-26 19:33:35",
+    "productos": [
+      {
+        "nombre": "lapiz",
+        "precio": 50.0,
+        "cantidad": 1
+      }
+    ],
+    "total": 50.0
+  },
+  {
+    "fecha": "2025-08-26 19:45:48",
+    "productos": [
+      {
+        "nombre": "lapiz",
+        "precio": 50.0,
+        "cantidad": 1
+      }
+    ],
+    "total": 50.0
+  },
+  {
+    "fecha": "2025-08-26 19:46:15",
+    "productos": [
+      {
+        "nombre": "virome",
+        "precio": 85.0,
+        "cantidad": 1
+      },
+      {
+        "nombre": "virome",
+        "precio": 85.0,
+        "cantidad": 1
+      }
+    ],
+    "total": 170.0
+  }
+]

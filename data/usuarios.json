@@ -1,0 +1,22 @@
+{
+    "usuarios": [
+        {
+            "username": "admin",
+            "password": "admin123",
+            "rol": "administrador",
+            "nombre": "Administrador Principal"
+        },
+        {
+            "username": "empleado",
+            "password": "empleado123",
+            "rol": "empleado",
+            "nombre": "Empleado General"
+        },
+        {
+            "username": "caja",
+            "password": "caja123",
+            "rol": "cajero",
+            "nombre": "Cajero Principal"
+        }
+    ]
+}
