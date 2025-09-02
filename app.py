@@ -1,6 +1,7 @@
+# app.py - Corrección de importaciones
 import customtkinter as ctk
-from ui.ventana_principal import mostrar_login
-from ui.ventana_principal import mostrar_ventana_principal
+from ui.ventana_login import mostrar_login  # ✅ Correcto
+from ui.ventana_principal import mostrar_ventana_principal  # ✅ Correcto
 
 def iniciar_aplicacion(autenticado, usuario_actual):
     if autenticado:
